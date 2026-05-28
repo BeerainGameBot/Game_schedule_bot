@@ -302,15 +302,15 @@ function buildSessionButtons(session) {
       .setEmoji('❌')
       .setStyle(ButtonStyle.Danger),
     new ButtonBuilder()
-      .setCustomId(`cancel_${session.id}`)
-      .setLabel('Cancel Session')
-      .setEmoji('🗑️')
-      .setStyle(ButtonStyle.Secondary),
-    new ButtonBuilder()
       .setCustomId(`invite_${session.id}`)
       .setLabel('Invite')
       .setEmoji('📣')
       .setStyle(ButtonStyle.Primary),
+    new ButtonBuilder()
+      .setCustomId(`cancel_${session.id}`)
+      .setLabel('Cancel Session')
+      .setEmoji('🗑️')
+      .setStyle(ButtonStyle.Secondary),
   );
 }
 

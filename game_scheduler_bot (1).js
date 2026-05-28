@@ -701,8 +701,7 @@ client.on('interactionCreate', async (interaction) => {
     if (!session) return interaction.reply({ content: 'Session not found.', ephemeral: true });
 
     return interaction.reply({
-      content: 'To invite friends, type this in the channel:
-!invite @friend1 @friend2',
+      content: 'To invite friends, type this in the channel:\n!invite @friend1 @friend2',
       ephemeral: true,
     });
   }

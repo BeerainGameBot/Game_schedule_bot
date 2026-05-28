@@ -1,0 +1,11 @@
+{
+  "name": "game-schedule-bot",
+  "version": "1.0.0",
+  "main": "game_scheduler_bot (1).js",
+  "scripts": {
+    "start": "node \"game_scheduler_bot (1).js\""
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
